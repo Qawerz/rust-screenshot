@@ -26,7 +26,7 @@ jobs:
             os: ubuntu-20.04
           - target: x86_64-pc-windows-msvc
             os: windows-latest
-    runs_on: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/chechout@v4
       - name: Install tools
